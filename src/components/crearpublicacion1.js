@@ -6,18 +6,6 @@ class Header extends React.Component {
         super(props);
     }
 
-    renderLogIn(){
-        this.props.history.push({
-            pathname: "/login",
-            signup: false
-        });
-    }
-    renderSignup(){
-        this.props.history.push({
-            pathname: "/login",
-            signup:true    
-        });
-    }
 
     renderWelcome(){
         this.props.history.push("/");
