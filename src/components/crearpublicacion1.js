@@ -6,7 +6,7 @@ class Header extends React.Component {
         super(props);
     }
 
-
+holiii
 
     render(){
         if (this.props.state === "welcome"){
