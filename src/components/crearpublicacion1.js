@@ -7,9 +7,6 @@ class Header extends React.Component {
     }
 
 
-    renderWelcome(){
-        this.props.history.push("/");
-    }
 
     render(){
         if (this.props.state === "welcome"){
